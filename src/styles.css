@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
 *{
-    background-color: aqua;
+    background-color: brown;
 }
 .container-fluid h1 {
     font-weight: bold;

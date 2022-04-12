@@ -7,8 +7,32 @@
     <div class="row">
         <div class="col-sm-6">
             <div **ngFor="let quote of quotes; let i=index">
+                <p id={{i}} >{{quote.quo}}, completed on {{quote.completeDate}}</p>
+
+
+                <button class="btn btn-primary" (click)="toggleDet(i)">Read More</button>
+
+                <div  **ngIf="quote.showAuthor">
+
+                    <quote2-details [quote]="quote"(isComplete)="deleteQuote(i,i)"></quote2-details>
+                  </div>
+
+
+
+
+                  </div>
+
+
+
+
+
+
 
             </div>
-        </div>
+
+            <div class="col-sm-6">
+                <quote2-form (addQuote)="addNewQuote($event)"></quote2-form>
+            </div>
     </div>
+    <footer>Copyrights Reserved & copy;2022 Francis Mwangi</footer>
 </div>

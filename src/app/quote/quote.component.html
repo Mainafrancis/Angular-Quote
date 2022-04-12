@@ -14,7 +14,7 @@
 
                 <div  **ngIf="quote.showAuthor">
 
-                    <quote2-details [quote]="quote"(isComplete)="deleteQuote(i,i)"></quote2-details>
+                    <app-quote-details [quote]="quote"(isComplete)="deleteQuote(i,i)"></app-quote-details>
                   </div>
 
 
@@ -31,7 +31,7 @@
             </div>
 
             <div class="col-sm-6">
-                <quote2-form (addQuote)="addNewQuote($event)"></quote2-form>
+                <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
             </div>
     </div>
     <footer>Copyrights Reserved & copy;2022 Francis Mwangi</footer>

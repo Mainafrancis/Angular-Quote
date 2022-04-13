@@ -16,10 +16,10 @@ import { Quote } from '../quote';
         new Date(20122,10,4)),
   
         new Quote(2,
-          'Life is either a great adventure or nothing.',
-          'Author:Hellen Keller'
+          'Always Shine as Bright as Diamond. You are always meant to embrace your glory.',
+          'Author:Lucy'
           ,
-          new Date(2015,10,17)),
+          new Date(2022,10,4)),
   
           new Quote(3,
             'The time is always right to do what is right',

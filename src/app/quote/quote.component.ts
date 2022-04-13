@@ -22,9 +22,9 @@ import { Quote } from '../quote';
           new Date(2022,10,4)),
   
           new Quote(3,
-            'The time is always right to do what is right',
-            'Author:Martin Luther KIng Jr',
-            new Date(2010,11,12))
+            'You are born to succeed in life. Affirm Yourself that you deserve it',
+            'Author:Njoki',
+            new Date(2022,10,4))
     
     ];
   

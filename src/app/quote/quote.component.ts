@@ -11,9 +11,9 @@ import { Quote } from '../quote';
    
     quotes:Quote[]=[
       new Quote(1,
-        'Being happy never goes out of style'
-        ,'Author:Lilly Pulitzer',
-        new Date(2012,10,2)),
+        'Monotony leads to poverty.Take a chance and eradicate it'
+        ,'Author:Andile',
+        new Date(20122,10,4)),
   
         new Quote(2,
           'Life is either a great adventure or nothing.',
